@@ -1,0 +1,63 @@
+html {
+  background:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(bg.jpg);
+  background-size: 300px; 
+  background-repeat: repeat-x repeat-y; 
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  height: 70vh;
+  width: 50vw;
+  background-color: white;
+  
+  display: flex;
+  flex-flow: column nowrap;
+
+  align-items: center;
+}
+
+h1 {
+  margin-top: 10vh;
+  color: #bd352e;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: black;
+  margin-top: -1vh;
+}
+
+input {
+  border: 1px solid black;
+  
+  height: 100%;
+  width: 100%;
+  font-size: 1.75em;
+}
+
+form {
+  height: 5vh;
+  width: 20vw;
+}
+
+div {
+  background-color: white;
+  border: 1px solid grey;
+  width: 20vw;
+}
+
+.option {
+  font: black;
+  margin-top: .5vh;
+  border-bottom: 2px solid grey;
+  font-size: 1.5em;
+}
